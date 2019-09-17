@@ -25,7 +25,7 @@ def setup():
     newCont(0,0,100,100,50,50,500)
 def load():
     for i in range(200):
-        newCont(random(-5000,5000),random(-5000,5000),random(100,500),random(100,500),50,50,500)
+        newCont(random(-5000,5000),random(-5000,5000),random(100,500),random(100,500),110,110,500)
 def draw():
     background(0,0,255)
     stroke(0,255,0)
