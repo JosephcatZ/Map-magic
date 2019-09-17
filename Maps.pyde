@@ -12,7 +12,7 @@ global conts
 conts=[]
 def drawCont(cont):
     for i in cont:
-        if i[0]>=xp-width-width and i[2]<=xp+width+width and i[1] >= yp-height-height and i[3] <= yp + height + height:
+        if i[0]>=xp-(5*width) and i[2]<=xp+(5*width) and i[1] >= yp-(5*height) and i[3] <= yp +(5*height):
             if i[4] == "Circle":
                 ellipse(i[0]+xp,i[1]+yp,i[2],i[3])
             if i[4] == "Square":
